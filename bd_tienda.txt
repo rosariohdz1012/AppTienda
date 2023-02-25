@@ -1,0 +1,1 @@
+CREATE TABLE `bd_tienda`.`producto` (`id` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(50) NOT NULL , `precio` FLOAT NOT NULL , `cantidad` INT NOT NULL , `caducidad` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_spanish_ci;
